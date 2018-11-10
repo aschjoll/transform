@@ -1,0 +1,11 @@
+Program Description: The program transforms input of type base 10 or hexadecimal to it's ASCII character value.
+The program reads and implements new lines (ex. "10" and "0x0A") as well as recognizes and disregards
+comments (ex. "/* this is a comment */"). It also recognizes incorrect input and prints the incorrect input
+in the format "<Error: >".
+
+Limitations:
+1. I still feel very unknowledgeable in C, so one of the biggest limitations is only being able
+to use certain concepts I have learned in the last week. This means my program is probably not as efficient as
+it would be if I were to study C for longer.
+2. The program only being able reads in 1024 characters on one line.
+3. The program only accepts 1 or 2 digit hex numbers of the format "0xzz" or "0Xzz".
