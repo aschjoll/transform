@@ -1,3 +1,5 @@
+Compile: make
+Run: ./transform < myinput.txt > myoutput.txt
 Program Description: The program transforms input of type base 10 or hexadecimal to it's ASCII character value.
 The program reads and implements new lines (ex. "10" and "0x0A") as well as recognizes and disregards
 comments (ex. "/* this is a comment */"). It also recognizes incorrect input and prints the incorrect input
